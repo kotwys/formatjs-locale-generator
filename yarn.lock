@@ -632,6 +632,11 @@ lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
+make-plural-compiler@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/make-plural-compiler/-/make-plural-compiler-5.1.0.tgz#3f5a96b44bfb0e343c38ed56b5e769801df6bae7"
+  integrity sha512-xOaWUIcU9K9ptuz1rjFKeLTvktddv7H/kCr4LpQYaO2TLkDjgSUj8soh4PX3CFVLziajY4wxepiZqVPyvXBrnA==
+
 minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
