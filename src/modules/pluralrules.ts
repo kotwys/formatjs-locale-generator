@@ -1,5 +1,5 @@
 import Compiler from 'make-plural-compiler/lib/compiler';
-import { locale as createLocale } from '../utils';
+import { createLocale } from '../utils';
 
 function transformKeys<T>(
     object: Record<string, T>,

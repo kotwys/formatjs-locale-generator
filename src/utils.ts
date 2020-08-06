@@ -82,7 +82,7 @@ type LocaleOptions = {
 /**
  * Utility method to create locale with specified data.
  */
-export function locale(options: LocaleOptions): string {
+export function createLocale(options: LocaleOptions): string {
     const minify = (code: string) => {
         const result = uglify(code, {
             output: {

@@ -1,4 +1,4 @@
-import { locale as createLocale } from '../utils';
+import { createLocale } from '../utils';
 
 export default (locale: string, data: Record<string, unknown>): string =>
     createLocale({
