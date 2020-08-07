@@ -1,0 +1,4 @@
+**/*
+
+# Include built artifacts
+!dist/

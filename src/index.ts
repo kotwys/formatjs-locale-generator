@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { basename, join } from 'path';
 import { outputFile } from 'fs-extra';
 import { program } from 'commander';

@@ -2,12 +2,18 @@
     "name": "@kotwys/formatjs-locale-generator",
     "version": "0.1.0",
     "description": "Locale generator for FormatJS",
-    "main": "index.js",
+    "bin": {
+        "formatjs-localegen": "./dist/index.js"
+    },
     "author": "kotwys",
+    "homepage": "https://github.com/kotwys/formatjs-locale-generator#readme",
+    "repository": "github:kotwys/formatjs-locale-generator",
     "license": "MIT",
     "scripts": {
+        "clean": "rimraf ./dist",
         "lint": "eslint --fix",
         "format": "prettier --write **/*",
+        "prebuild": "yarn clean",
         "build": "tsc"
     },
     "devDependencies": {
@@ -22,6 +28,7 @@
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-prettier": "^3.1.4",
         "prettier": "^2.0.5",
+        "rimraf": "^3.0.2",
         "typescript": "^3.9.7"
     },
     "dependencies": {
@@ -31,5 +38,12 @@
         "make-plural-compiler": "^5.1.0",
         "serialize-javascript": "^4.0.0",
         "uglify-js": "^3.10.1"
-    }
+    },
+    "keywords": [
+        "formatjs",
+        "locale",
+        "generator",
+        "localegen",
+        "i18n"
+    ]
 }
